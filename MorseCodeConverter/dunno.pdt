@@ -1,0 +1,153 @@
+version = 0
+sysroot = ""
+sysroots_dir = ""
+parts = []
+
+[Application]
+entry_point = ""
+is_console = false
+is_bundle = true
+name = "MorseCodeConverter"
+qmake_configuration = ""
+script = "G:\\Software\\py\\Python Creations\\MorseCodeConverter\\MorseCodeConverter.py"
+syspath = ""
+
+[Application.Package]
+name = "G:\\Software\\py\\Python Creations\\MorseCodeConverter"
+exclude = [ "*.pyc", "*.pyd", "*.pyo", "*.pyx", "*.pxi", "__pycache__", "*-info", "EGG_INFO", "*.so",]
+[[Application.Package.Content]]
+name = "1.iss"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "build"
+included = true
+is_directory = true
+[[Application.Package.Content.Content]]
+name = "MorseCodeConverter"
+included = true
+is_directory = true
+[[Application.Package.Content.Content.Content]]
+name = "Analysis-00.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "base_library.zip"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "EXE-00.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "localpycs"
+included = true
+is_directory = true
+Content = []
+
+[[Application.Package.Content.Content.Content]]
+name = "MorseCodeConverter.exe.manifest"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "MorseCodeConverter.pkg"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "PKG-00.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "PYZ-00.pyz"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "PYZ-00.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "Tree-00.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "Tree-01.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "Tree-02.toc"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "warn-MorseCodeConverter.txt"
+included = true
+is_directory = false
+
+[[Application.Package.Content.Content.Content]]
+name = "xref-MorseCodeConverter.html"
+included = true
+is_directory = false
+
+
+
+[[Application.Package.Content]]
+name = "dist"
+included = true
+is_directory = true
+[[Application.Package.Content.Content]]
+name = "MorseCodeConverter.exe"
+included = true
+is_directory = false
+
+
+[[Application.Package.Content]]
+name = "infofile1.txt"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "infofile2.txt"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "morse1.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "morse2.ico"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "morse2.png"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "MorseCodeConverter.py"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "MorseCodeConverter.spec"
+included = true
+is_directory = false
+
+[[Application.Package.Content]]
+name = "readme.txt"
+included = true
+is_directory = false
+
