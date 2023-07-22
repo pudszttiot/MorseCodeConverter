@@ -33,14 +33,9 @@ def convert_to_morse():
                   'Y': '-.--', 'Z': '--..', '0': '-----', '1': '.----', '2': '..---', '3': '...--', '4': '....-',
                   '5': '.....', '6': '-....', '7': '--...', '8': '---..', '9': '----.'}
 
-    # Convert the text to Morse code
-    morse = ''
-    for char in text:
-        if char == ' ':
-            morse += ' '
-        else:
-            morse += morse_code[char] + ' '
-
+    morse = ''.join(
+        ' ' if char == ' ' else f'{morse_code[char]} ' for char in text
+    )
     # Display the Morse code in the output field
     output.delete('1.0', END)
     output.insert(END, morse)
